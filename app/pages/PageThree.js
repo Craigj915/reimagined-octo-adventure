@@ -5,6 +5,14 @@ const PageThree = () => {
   const [modal, setModal] = useState(null);
   const modals = [
     {
+      id: 0,
+      title: "Reimagined-Octo-Adventure",
+      repo: "https://github.com/Craigj915/reimagined-octo-adventure",
+      image: "work (0).png",
+      desc: "The site that you are currently on and one of my favourite projects sofar, I hope you enjoy it too.",
+      link: "",
+    },
+    {
       id: 1,
       title: "Fantastic-Octo-Sniffle",
       repo: "https://github.com/Craigj915/fantastic-octo-sniffle",
@@ -129,7 +137,7 @@ const PageThree = () => {
         {modal && (
           <div
             id={modal.id}
-            className="w-3/4 p-2 rounded-md overflow-hidden z-50 bg-gray-600 bg-opacity-45 fixed"
+            className="w-3/4 p-2 rounded-md overflow-hidden z-50 bgGray2 fixed"
             style={{
               top: "50%",
               left: "50%",
