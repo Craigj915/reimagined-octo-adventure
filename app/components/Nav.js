@@ -32,12 +32,13 @@ const Nav = () => {
               CONTACT
             </a>
           </li>
-          <li className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300">
+          <li>
             <a
               type="button"
               href="https://drive.google.com/file/d/17FlsaNU30pBJK3ePNEYVXfrWfcRmiBCu/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300"
             >
               CV
             </a>
