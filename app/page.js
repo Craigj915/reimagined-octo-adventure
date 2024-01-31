@@ -10,7 +10,7 @@ export default function Home() {
         href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
         rel="stylesheet"
       />
-      <div className="flex justify-between ">
+      <div className="flex justify-between bgGray">
         <div>
           <div className="w-screen">
             <PageOne />
