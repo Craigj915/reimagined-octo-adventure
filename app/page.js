@@ -1,10 +1,12 @@
+"use client"
 import Logo from "./components/Logo";
 import Nav from "./components/Nav";
-import PageOne from "./components/PageOne";
-import PageThree from "./components/PageThree";
-import PageTwo from "./components/PageTwo";
+import PageOne from "./pages/PageOne";
+import PageThree from "./pages/PageThree";
+import PageTwo from "./pages/PageTwo";
 
 export default function Home() {
+
   return (
     <main>
       <link
