@@ -1,6 +1,7 @@
 import Logo from "./components/Logo";
 import Nav from "./components/Nav";
 import PageOne from "./components/PageOne";
+import PageThree from "./components/PageThree";
 import PageTwo from "./components/PageTwo";
 
 export default function Home() {
@@ -10,13 +11,16 @@ export default function Home() {
         href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
         rel="stylesheet"
       />
-      <div className="flex justify-between bgGray">
+      <div className="flex justify-between bgGray overflow-hidden">
         <div>
           <div className="w-screen">
             <PageOne />
           </div>
           <div className="w-screen">
             <PageTwo />
+          </div>
+          <div className="w-screen">
+            <PageThree />
           </div>
         </div>
         <div className="fixed left-0">
