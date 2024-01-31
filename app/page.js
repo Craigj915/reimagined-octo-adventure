@@ -1,6 +1,7 @@
 "use client"
 import Logo from "./components/Logo";
 import Nav from "./components/Nav";
+import PageFour from "./pages/PageFour";
 import PageOne from "./pages/PageOne";
 import PageThree from "./pages/PageThree";
 import PageTwo from "./pages/PageTwo";
@@ -23,6 +24,9 @@ export default function Home() {
           </div>
           <div className="w-screen">
             <PageThree />
+          </div>
+          <div className="w-screen">
+            <PageFour />
           </div>
         </div>
         <div className="fixed left-0">

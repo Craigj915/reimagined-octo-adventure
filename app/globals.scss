@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bgGray {
     background-color: #131516;
   }
@@ -76,11 +80,24 @@
   }
   
   .bottomBg {
+    position: relative;
     background-image: url("../public/32.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 20%;
     background-position-x: 50%;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      backdrop-filter:grayscale(100%);
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 65%, rgba(19, 21, 22, 1));
+    }
   }
   
   #logo {
