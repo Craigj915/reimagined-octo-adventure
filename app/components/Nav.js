@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <div>
-      <div id="navRight" className="flex-none justify-end p-8 bg w-48 h-screen">
+      <div id="navRight" className="flex-none justify-end pr-8 pt-8 bg ">
         <ul className="text-right inter textBig text-2xl">
           <li>
             <a

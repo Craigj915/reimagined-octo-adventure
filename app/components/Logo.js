@@ -9,8 +9,8 @@ import {
 
 const Logo = () => {
   return (
-    <div className="flex-none justify-start bg w-48 h-screen flex flex-col">
-      <div className="flex-none justify-start bg p-8 w-32 flex-grow">
+    <div className="flex-none justify-start bg flex flex-col">
+      <div className="flex-none justify-start bg p-8 flex-grow">
         <div className="static">
           <a type="button" href="#home" className="z-50">
             <img

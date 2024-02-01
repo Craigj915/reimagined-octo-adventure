@@ -124,7 +124,7 @@ const PageThree = () => {
             {modals.map((modal) => (
               <div
                 key={modal.id}
-                onTouchStart={() => openModal(modal.id)}
+                onTouchEnd={() => openModal(modal.id)}
                 onClick={() => openModal(modal.id)}
                 className="cursor-pointer hover:scale-105 drop-shadow-md"
               >
@@ -138,7 +138,7 @@ const PageThree = () => {
         {modal && (
           <div
             id={modal.id}
-            className="w-3/4 p-2 rounded-md overflow-hidden z-50 bgGray2 fixed"
+            className="w-full sm:w-3/4 p-2 rounded-md overflow-hidden z-50 bgGray2 fixed"
             style={{
               top: "50%",
               left: "50%",
@@ -146,21 +146,23 @@ const PageThree = () => {
             }}
           >
             <div className="relative">
-              <a
-                type="button"
-                href={modal.repo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="absolute top-12 left-3 redHatDisp font-bold text-blue-300 text-2xl drop-shadow-lg hover:scale-110 hover:text-red-500"
-              >
-                &gt; {modal.title} &lt;
-              </a>
-              <IoClose
-                size={48}
-                className="absolute top-12 right-3 redHatDisp font-bold text-blue-300 text-xl drop-shadow-lg cursor-pointer hover:scale-110 hover:text-red-500"
-                onClick={closeModal}
-                onTouchStart={closeModal}
-              />
+              <div>
+                <a
+                  type="button"
+                  href={modal.repo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute top-12 left-3 redHatDisp font-bold text-blue-300 text-lg sm:text-2xl drop-shadow-lg hover:scale-110 hover:text-red-500"
+                >
+                  &gt; {modal.title} &lt;
+                </a>
+                <IoClose
+                  
+                  className="absolute top-8 right-3 redHatDisp font-bold text-blue-300 text-xl drop-shadow-lg cursor-pointer hover:scale-110 hover:text-red-500 size-10"
+                  onClick={closeModal}
+                  onTouchEnd={closeModal}
+                />
+              </div>
               <a
                 type="button"
                 href={modal.link}
