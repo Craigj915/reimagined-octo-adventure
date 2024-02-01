@@ -124,6 +124,7 @@ const PageThree = () => {
             {modals.map((modal) => (
               <div
                 key={modal.id}
+                onTouchStart={() => openModal(modal.id)}
                 onClick={() => openModal(modal.id)}
                 className="cursor-pointer hover:scale-105 drop-shadow-md"
               >
@@ -158,6 +159,7 @@ const PageThree = () => {
                 size={48}
                 className="absolute top-12 right-3 redHatDisp font-bold text-blue-300 text-xl drop-shadow-lg cursor-pointer hover:scale-110 hover:text-red-500"
                 onClick={closeModal}
+                onTouchStart={closeModal}
               />
               <a
                 type="button"
