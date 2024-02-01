@@ -74,7 +74,7 @@ const PageThree = () => {
       repo: "https://github.com/Craigj915/curly-octo-enigma",
       image: "work (8).png",
       desc: "First webpage made using tailwindCss. This site was suppose to be about my hobbies, but quickly turned into a playground for using tailwind",
-      link: "https://craigj915.github.io/fantastic-octo-waffle/",
+      link: "https://curly-octo-enigma-three.vercel.app/",
     },
     {
       id: 9,
@@ -82,7 +82,7 @@ const PageThree = () => {
       repo: "https://github.com/Craigj915/fantastic-octo-waffle",
       image: "work (9).png",
       desc: "",
-      link: "https://curly-octo-enigma-three.vercel.app/",
+      link: "https://craigj915.github.io/fantastic-octo-waffle/",
     },
     {
       id: 10,
@@ -145,19 +145,19 @@ const PageThree = () => {
             }}
           >
             <div className="relative">
-              <div>
+              <div className="text-center">
                 <a
                   type="button"
                   href={modal.repo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute top-12 left-3 redHatDisp font-bold text-blue-300 text-lg sm:text-2xl drop-shadow-lg hover:scale-110 hover:text-red-500"
+                  className="w-fit redHatDisp font-bold text-blue-300 text-lg sm:text-2xl drop-shadow-lg hover:scale-110 hover:text-red-500 underline underline-offset-8"
                 >
                   &gt; {modal.title} &lt;
                 </a>
                 <IoClose
                   
-                  className="absolute top-8 right-3 redHatDisp font-bold text-blue-300 text-xl drop-shadow-lg cursor-pointer hover:scale-110 hover:text-red-500 size-10"
+                  className="absolute top-0 right-2 redHatDisp font-bold text-blue-300 text-xl drop-shadow-lg cursor-pointer hover:scale-110 hover:text-red-500 size-10"
                   onClick={closeModal}
                 />
               </div>
@@ -174,7 +174,7 @@ const PageThree = () => {
                 />
               </a>
             </div>
-            <div className="h-fit w-full  flex p-2 text-white">{modal.desc}</div>
+            <div className="h-fit w-full flex p-2 text-white">{modal.desc}</div>
           </div>
         )}
       </section>
