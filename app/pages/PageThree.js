@@ -50,7 +50,7 @@ const PageThree = () => {
       repo: "https://github.com/Craigj915/dreadful-octo-adventure",
       image: "work (7).png",
       desc: "A work inprogress 2D platformer game written in Java",
-      link: "",
+      link: "https://dreadful-octo-adventure.vercel.app",
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ const PageThree = () => {
       repo: "https://github.com/Craigj915/automatic-octo-funicular",
       image: "work (5).png",
       desc: "An event creator app using express mongodb and react.",
-      link: "",
+      link: "https://automatic-octo-funicular.vercel.app",
     },
     {
       id: 7,
