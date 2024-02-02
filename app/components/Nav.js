@@ -9,7 +9,7 @@ const Nav = () => {
             <a
               type="button"
               href="#about"
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300"
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300 drop-shadow-lg"
             >
               ABOUT
             </a>
@@ -18,7 +18,7 @@ const Nav = () => {
             <a
               type="button"
               href="#work"
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300"
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300 drop-shadow-lg"
             >
               WORK
             </a>
@@ -27,7 +27,7 @@ const Nav = () => {
             <a
               type="button"
               href="#contact"
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300"
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300 drop-shadow-lg"
             >
               CONTACT
             </a>
@@ -38,7 +38,7 @@ const Nav = () => {
               href="https://drive.google.com/file/d/17FlsaNU30pBJK3ePNEYVXfrWfcRmiBCu/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300"
+              className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300 drop-shadow-lg"
             >
               CV
             </a>

@@ -121,4 +121,11 @@ html::-webkit-scrollbar-track {
   
   #logo {
     filter: contrast(5%);
+    color: #4299e1;
+    transition: filter color 0.5s;
+  }
+  
+  #logo:hover {
+    filter: grayscale(100%) brightness(160%) contrast(20%) sepia(100%) hue-rotate(180deg) saturate(100%);
+    color: inherit;
   }

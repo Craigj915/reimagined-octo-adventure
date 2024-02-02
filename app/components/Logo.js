@@ -15,7 +15,7 @@ const Logo = () => {
           <a type="button" href="#home" className="z-50">
             <img
               id="logo"
-              className="h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300"
+              className="h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
               src="/OctoLogo.png"
             />
           </a>
