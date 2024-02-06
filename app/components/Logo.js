@@ -29,7 +29,7 @@ const Logo = () => {
               <li>
                 <a
                   type="button"
-                  href="https://github.com/Craigj915?tab=overview&from=2023-09-01&to=2023-09-28"
+                  href="https://github.com/Craigj915"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -46,7 +46,7 @@ const Logo = () => {
                   <FaLinkedin className="h-8 w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300" />
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   type="button"
                   href="https://www.instagram.com/cra1g.exe/"
@@ -55,7 +55,7 @@ const Logo = () => {
                 >
                   <FaInstagram className="h-8 w-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-blue-300 duration-300" />
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   type="button"

@@ -14,7 +14,7 @@ export default function Home() {
         href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
         rel="stylesheet"
       />
-      <div className="flex justify-between bgGray overflow-hidden">
+      <div className="flex justify-between bgGray overflow-hidden select-none">
         <div>
           <div className="w-screen">
             <PageOne />

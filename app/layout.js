@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.scss";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}<SpeedInsights/></body>
+      <body className={inter.className}>
+        {children}
+        <SpeedInsights />
+        <Footer className="select-none"/>
+      </body>
     </html>
   );
 }

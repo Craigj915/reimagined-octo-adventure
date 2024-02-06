@@ -1,0 +1,109 @@
+[
+  {
+    "id": 0,
+    "title": "Reimagined-Octo-Adventure",
+    "repo": "https://github.com/Craigj915/reimagined-octo-adventure",
+    "image": "work (0).png",
+    "desc": "The site that you are currently on and one of my favourite projects so far, I hope you enjoy it too.",
+    "type": ["NEXT", "ALL"]
+  },
+  {
+    "id": 1,
+    "title": "Fantastic-Octo-Sniffle",
+    "repo": "https://github.com/Craigj915/fantastic-octo-sniffle",
+    "image": "work (1).png",
+    "desc": "A small text-based game made using basic HTML and JavaScript.",
+    "link": "https://craigj915.github.io/fantastic-octo-sniffle/",
+    "type": ["OTHER", "ALL"]
+  },
+  {
+    "id": 2,
+    "title": "Glowing-Octo-Garbanzo",
+    "repo": "https://github.com/Craigj915/glowing-octo-garbanzo",
+    "image": "work (2).png",
+    "desc": "This is a simple weather application developed using React.js and the OpenWeatherAPI. The app allows users to search for weather forecasts in different cities. Users can input the city name, and the app retrieves and displays relevant weather data, including temperature, weather description, icons, wind speed, humidity, and more. The application is designed with a clean and user-friendly interface, providing a convenient way to check weather information for multiple days in the selected city.",
+    "link": "https://glowing-octo-garbanzo.vercel.app/",
+    "type": ["MERN", "ALL"]
+  },
+  {
+    "id": 3,
+    "title": "TDA-SAC",
+    "repo": "https://github.com/Craigj915/TDA-SAC",
+    "image": "work (3).png",
+    "desc": "The Developer Academy Tracker is a comprehensive application designed to streamline various administrative tasks. With a user-friendly interface, the app offers functionalities such as course management, tracking sick leave and holidays, and a seamless system for creating and managing user accounts with assigned teams and roles. One of its standout features is the notification system, specifically tailored for holiday requests, ensuring efficient communication and organization within The Developer Academy. This all-in-one tracker is built to enhance productivity and simplify administrative processes for a more streamlined experience. ",
+    "link": "https://tda-sac.vercel.app/",
+    "type": ["MERN", "ALL"]
+  },
+  {
+    "id": 4,
+    "title": "Stunning-Octo-Goggles",
+    "repo": "https://github.com/Craigj915/stunning-octo-goggles",
+    "image": "work (4).png",
+    "desc": "Movie / Series app using local storage",
+    "link": "https://stunning-octo-goggles.vercel.app/",
+    "type": ["MERN", "ALL"]
+  },
+  {
+    "id": 5,
+    "title": "Dreadful-Octo-Adventure",
+    "repo": "https://github.com/Craigj915/dreadful-octo-adventure",
+    "image": "work (7).png",
+    "desc": "A work in-progress 2D platformer game written in Java",
+    "link": "https://dreadful-octo-adventure.vercel.app",
+    "type": ["JAVA", "ALL"]
+  },
+  {
+    "id": 6,
+    "title": "Automatic-Octo-Funicular",
+    "repo": "https://github.com/Craigj915/automatic-octo-funicular",
+    "image": "work (5).png",
+    "desc": "An event creator app using express mongodb and react.",
+    "link": "https://automatic-octo-funicular.vercel.app",
+    "type": ["MERN", "ALL"]
+  },
+  {
+    "id": 7,
+    "title": "Expert-Octo-Journey",
+    "repo": "https://github.com/Craigj915/expert-octo-journey",
+    "image": "work (6.1).png",
+    "desc": "",
+    "link": "https://craigj915.github.io/expert-octo-journey/",
+    "type": ["OTHER", "ALL"]
+  },
+  {
+    "id": 8,
+    "title": "Curly-Octo-Enigma",
+    "repo": "https://github.com/Craigj915/curly-octo-enigma",
+    "image": "work (8).png",
+    "desc": "First webpage made using tailwindCss. This site was supposed to be about my hobbies, but quickly turned into a playground for using tailwind",
+    "link": "https://curly-octo-enigma-three.vercel.app/",
+    "type": ["MERN", "ALL"]
+  },
+  {
+    "id": 9,
+    "title": "Fantastic-Octo-Waffle",
+    "repo": "https://github.com/Craigj915/fantastic-octo-waffle",
+    "image": "work (9).png",
+    "desc": "",
+    "link": "https://craigj915.github.io/fantastic-octo-waffle/",
+    "type": ["OTHER", "ALL"]
+  },
+  {
+    "id": 10,
+    "title": "TDA-Social-Media-App",
+    "repo": "https://github.com/infinitemax/TDA-social-media-app",
+    "image": "work (10).png",
+    "desc": "A social media app created by Max, Melissa and myself.",
+    "link": "https://tda-social-media-app.vercel.app/",
+    "type": ["MERN", "ALL"]
+  },
+  {
+    "id": 11,
+    "title": "Fluffy-Octo-Engine",
+    "repo": "https://github.com/Craigj915/fluffy-octo-engine",
+    "image": "work (11).png",
+    "desc": "A Caesar cipher app",
+    "link": "https://craigj915.github.io/fluffy-octo-engine/",
+    "type": ["OTHER", "ALL"]
+  }
+]
