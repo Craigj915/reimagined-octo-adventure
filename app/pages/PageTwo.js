@@ -7,6 +7,10 @@ import {
   FaNodeJs,
   FaJava,
   FaSass,
+  FaGitAlt,
+  FaGithub,
+  FaWordpress,
+  FaLinux,
 } from "react-icons/fa6";
 import {
   SiMongodb,
@@ -43,12 +47,15 @@ const IconList = () => {
   return (
     <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 textBig">
       <IconItem icon={<SiNextdotjs size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Next.js" />
+      <IconItem icon={<FaGitAlt size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Git" />
+      <IconItem icon={<FaGithub size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Github" />      
       <IconItem icon={<SiTailwindcss size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="TailwindCSS" />
       <IconItem icon={<FaJs size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="JavaScript" />
       <IconItem icon={<SiJson size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="JSON" />
       <IconItem icon={<FaHtml5 size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="HTML" />
       <IconItem icon={<FaCss3Alt size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="CSS" />
       <IconItem icon={<SiVisualstudiocode size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="VS Code" />
+      <IconItem icon={<FaLinux size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Linux" />
     </ul>
   );
 };
@@ -68,6 +75,7 @@ const LearningList = () => {
       <LearningItem icon={<SiIntellijidea size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="IntelliJ IDEA" />
       <LearningItem icon={<FaSass size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="Sass" />
       <LearningItem icon={<SiMysql size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="MySQL" />
+      <LearningItem icon={<FaWordpress size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="Wordpress" />
     </ul>
   );
 };
