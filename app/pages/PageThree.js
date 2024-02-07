@@ -21,7 +21,7 @@ const PageThree = () => {
 
   return (
     <div>
-      <section id="work" className="py-24 overflow-clip flex flex-col h-screen">
+      <section id="work" className="py-24 flex flex-col h-fit">
         <div className="py-4 text-right sm:w-4/6 xl:w-1/2 sm:mx-auto">
           <div className="flex justify-end px-[4%] mb-3">
             <div className="redHatDisp spaceED textBig text-xs sm:text-lg lg:text-xl xl:text-2xl drop-shadow-md">
@@ -82,7 +82,7 @@ const PageThree = () => {
               </li>
             </ul>
           </div>
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 p-4 gap-4 text-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 p-4 gap-4 text-left">
             {modals.filter((modal) => modal.type.some((t) => typesToDisplay.includes(t))).map((modal) => (
               <div
                 key={modal.id}
