@@ -21,7 +21,7 @@ const PageThree = () => {
 
   return (
     <div>
-      <section id="work" className="py-24 flex flex-col h-fit">
+      <section id="work" className="py-24 flex flex-col h-fit min-h-screen">
         <div className="py-4 text-right sm:w-4/6 xl:w-1/2 sm:mx-auto">
           <div className="flex justify-end px-[4%] mb-3">
             <div className="redHatDisp spaceED textBig text-xs sm:text-lg lg:text-xl xl:text-2xl drop-shadow-md">
