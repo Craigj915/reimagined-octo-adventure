@@ -11,6 +11,9 @@ import {
   FaGithub,
   FaWordpress,
   FaLinux,
+  FaUnity,
+  FaRaspberryPi,
+  FaDocker,
 } from "react-icons/fa6";
 import {
   SiMongodb,
@@ -23,6 +26,7 @@ import {
   SiJson,
   SiAzuredevops,
   SiJira,
+  SiBlender,
 } from "react-icons/si";
 
 const MernList = () => {
@@ -38,7 +42,7 @@ const MernList = () => {
 
 const MernItem = ({ icon, text }) => {
   return (
-    <li className="flex flex-col items-center">
+    <li className="flex flex-col items-center space-y-2">
       {icon}
       <span>{text}</span>
     </li>
@@ -47,7 +51,7 @@ const MernItem = ({ icon, text }) => {
 
 const IconList = () => {
   return (
-    <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 gap-4 textBig">
+    <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 gap-6 textBig">
       <IconItem icon={<SiNextdotjs size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Next.js" />
       <IconItem icon={<FaGitAlt size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Git" />
       <IconItem icon={<FaGithub size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Github" />      
@@ -61,13 +65,17 @@ const IconList = () => {
       <IconItem icon={<FaSass size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Sass" />
       <IconItem icon={<SiAzuredevops size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="AzureDevOps" />
       <IconItem icon={<SiJira  size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Jira" />
+      <IconItem icon={<SiBlender  size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Blender" />
+      <IconItem icon={<FaUnity  size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Unity 3D" />
+      <IconItem icon={<FaRaspberryPi  size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="RaspberryPi" />
+      <IconItem icon={<FaDocker size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Docker" />
     </ul>
   );
 };
 
 const IconItem = ({ icon, text }) => {
   return (
-    <li className="flex flex-col items-center">
+    <li className="flex flex-col items-center space-y-2">
       {icon}
       <span>{text}</span>
     </li>
@@ -86,7 +94,7 @@ const LearningList = () => {
 
 const LearningItem = ({ icon, text }) => {
   return (
-    <li className="flex flex-col items-center">
+    <li className="flex flex-col items-center space-y-2">
       {icon}
       <span>{text}</span>
     </li>
