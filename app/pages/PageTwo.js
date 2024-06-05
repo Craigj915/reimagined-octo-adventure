@@ -21,11 +21,13 @@ import {
   SiMysql,
   SiExpress,
   SiJson,
+  SiAzuredevops,
+  SiJira,
 } from "react-icons/si";
 
 const MernList = () => {
   return (
-    <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 textBig">
+    <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 gap-4 textBig">
       <MernItem icon={<SiMongodb size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-blue-300"/>} text="MongoDB" />
       <MernItem icon={<SiExpress size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-blue-300"/>} text="Express" />
       <MernItem icon={<FaReact size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-blue-300"/>} text="React" />
@@ -45,7 +47,7 @@ const MernItem = ({ icon, text }) => {
 
 const IconList = () => {
   return (
-    <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 textBig">
+    <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 gap-4 textBig">
       <IconItem icon={<SiNextdotjs size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Next.js" />
       <IconItem icon={<FaGitAlt size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Git" />
       <IconItem icon={<FaGithub size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Github" />      
@@ -56,6 +58,9 @@ const IconList = () => {
       <IconItem icon={<FaCss3Alt size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="CSS" />
       <IconItem icon={<SiVisualstudiocode size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="VS Code" />
       <IconItem icon={<FaLinux size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Linux" />
+      <IconItem icon={<FaSass size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Sass" />
+      <IconItem icon={<SiAzuredevops size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="AzureDevOps" />
+      <IconItem icon={<SiJira  size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-green-300"/>} text="Jira" />
     </ul>
   );
 };
@@ -70,10 +75,9 @@ const IconItem = ({ icon, text }) => {
 };
 const LearningList = () => {
   return (
-    <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 textBig">
+    <ul className="flex flex-wrap justify-center p-4 items-center space-x-4 gap-4 textBig">
       <LearningItem icon={<FaJava size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="Java" />
       <LearningItem icon={<SiIntellijidea size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="IntelliJ IDEA" />
-      <LearningItem icon={<FaSass size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="Sass" />
       <LearningItem icon={<SiMysql size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="MySQL" />
       <LearningItem icon={<FaWordpress size={32} className="transition ease-in-out delay-150 hover:scale-125 duration-300 hover:text-red-500"/>} text="Wordpress" />
     </ul>
@@ -103,7 +107,7 @@ const PageTwo = () => {
             <div className="redHatDisp textBig text-xl sm:text-2xl lg:text-3xl xl:text-4xl drop-shadow-md">
               Hi, I'm Craig! 👋
               <br />
-              Junior full-stack dev with a passion for creating elegant websites
+              A full-stack dev with a passion for creating elegant websites
               and apps; using MERN stack, Next.js and TailwindCSS.
               <br />I have also recently started learning Java.
             </div>
